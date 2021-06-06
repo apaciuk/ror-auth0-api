@@ -12,7 +12,7 @@ gem 'puma', '~> 4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 group :development do
-gem 'faker'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
   gem 'listen', '~> 3.2'
@@ -20,7 +20,7 @@ gem 'sqlite3', '~> 1.4'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
+gem 'faker'
 gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails', groups: [:development, :test]
 # Use Active Storage variant
